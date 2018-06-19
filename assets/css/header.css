@@ -1,0 +1,114 @@
+body{
+	font-family: 'Lora', serif;
+	max-width: 1600px;
+	background:url(../img/Home.jpg)
+}
+.header{
+	background: #fcfcfc;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.logo{
+	display: block;
+	height: 100px;
+	background: url(../img/logo.png) no-repeat 50% 50%;
+	background-size: contain;
+}
+.navbar, .navbar-inverse {
+		width: 170px;
+		height: 145px;
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
+	margin-left: 265px;
+}
+
+.nav li {
+	display: inline;
+	color: white;
+}
+.icon-bar{
+	background-color: #000;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	transition: 0.7s all linear;
+	height: 100%;
+}
+
+.menu{
+}
+.menu__item{
+	margin: 0 15px;
+	text-transform: uppercase;
+	color: #000;
+}
+.menu___item{
+	margin: 0 15px;
+	text-transform: none;
+	text-decoration: none;
+	color: #000;}
+
+.menu__item:hover{
+	color: #000;
+	text-decoration: none;
+	position: relative;
+}
+.menu__item:hover:before{
+	content: '';
+	display: block;
+	width:50%;
+	height: 2px;
+	background: #4933f2;
+	position: absolute;
+	top:-4px;
+	left:-2px;
+}
+.menu__item:hover:after{
+	content: '';
+	display: block;
+	width:50%;
+	height: 2px;
+	background: #4933f2;
+	position: absolute;
+	bottom:-4px;
+	right:-2px;
+}
+
+.footer{
+ background-color: #000;
+}
+
+/*.container{
+	width: 70%;
+	padding: 20px;
+	margin:50px auto 0;
+	background: #7166c6;
+}
+.col{
+	background: #7166c6;
+	padding: 20px;
+}
+
+.column {
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+	padding:5px;
+	color: #666;
+}*/
+
+}
+.img-about_us{
+	max-width: 100%;
+	max-height: 100%;
+}
+.blog_sait{
+	height: 470px;
+	width: 550px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
